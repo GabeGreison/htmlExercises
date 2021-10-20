@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box;
+    display:grid;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+    grid-template-rows: 60px 1fr 40px;
+    grid-template-columns: 1fr 100px;
+}
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: peachpuff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    box-shadow: 0px 2px 4px burlywood;
+    padding: 0 10px;
+}
+
+.navLinks{
+    list-style: none;
+    
+}
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+a{
+    color: rgb(22, 6, 1);
+}
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+    border: none;
+    text-decoration: none;
+}
+.navLinks li a:hover{
+    color: orangered;
+}
+
+main{
+    grid-area: main;
+
+}
+
+aside{
+    box-shadow: 0px 2px 4px burlywood;
+    grid-area: aside;
+    background-color: rgb(248, 166, 108);
+    padding: 5px;
+
+}
+
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: rgb(241, 149, 28);
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+
+h1{
+    border-bottom: solid 1px salmon;
+    width: fit-content;
+    font-family: 'Ephesis', cursive;
+    letter-spacing: 2px;
+    
+}
+
+p,img{
+    display: inline-block;
+}
+img{
+    height: 30em;
+}
+.imgQuemSomos{
+    margin-bottom: 20rem;
+}
+
+.oResto, .aComida,.sobreNos{
+    display: flex;
+}
+
+h2{
+    color: orange;
+    margin: 10% 0 5% 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.texto{
+    padding: 0 30px 0 30px;
+    font-size: 25px;
+    line-height: 35px;
+    
+}
+.textoAside{
+
+    width: 80px;
+    }
+.largura{
+    width: 80px;
+}
+
+#quemSomos{
+    margin-left: 59%;
+}
