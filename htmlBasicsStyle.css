@@ -1,34 +1,36 @@
 *{
-    box-sizing: border-box;
-}
-body{
-    display:grid;
     margin: 0;
-    height: 100vh;
-    width: 100vw;
-    grid-template-areas:
-    "header header"
-    "main aside"
-    "footer footer";
-    grid-template-rows: 30px 1fr 40px;
-    grid-template-columns: 1fr 80px;
 }
+
 header{
-    grid-area: header;
-    background-color: blueviolet;
+    display: flex;
+    padding: 2rem;
+    background-color: aquamarine;
 }
 
-main{
-    grid-area: main;
-    background-color: aqua;
+a{ 
+    text-decoration: none;
+    }
+nav:nth-child(1){
+    flex: 2;
 }
 
-aside{
-    grid-area: aside;
-    background-color: chocolate;
-}
 
-footer{
-    grid-area: footer;
-    background-color: darkgoldenrod;
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    font-weight: lighter;
+    align-items: center;
+}
+.contact{
+    background-color: black;
+    color: rgb(255, 254, 254);
+    padding: 5px;
 }
