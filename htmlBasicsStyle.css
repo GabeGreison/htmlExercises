@@ -1,14 +1,17 @@
-button{
-    background-color: rgb(184, 188, 235);
+body{
     display: flex;
-    align-items: center;
-    gap: .4rem;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 0;
+    align-items: flex-end;
+    min-height: 100vh;
 }
 
-button img{
-
-    width: 20px;
-    height: 20px;
+footer{
+    display: flex;
+    flex: 1;
+    background-color: tomato;
+    height: 8rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center ;
+    color: white;
+    
 }
