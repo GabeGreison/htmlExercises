@@ -3,44 +3,15 @@
     margin: 0;
 }
 
-.galleryOne{
+.gallery{
     display: flex;
+    flex-wrap: wrap;
     gap: .8rem;
+    justify-content: center;
+}
+
+img{
+    width: 30%;
     padding: 2rem;
-    justify-content: space-around;
-
 }
 
-.galleryOne>section{
-    border: solid 1px cornflowerblue;
-    height: 20vh;
-    width: 20vw;
-}
-
-.galleryTwo{
-    display: flex;
-    gap: .8rem;
-    padding: 2rem;
-    justify-content: space-around;
-
-}
-
-.galleryTwo>section{
-    border: solid 1px cornflowerblue;
-    height: 20vh;
-    width: 20vw;
-}
-
-.galleryThree{
-    display: flex;
-    gap: .8rem;
-    padding: 2rem;
-    justify-content: space-around;
-
-}
-
-.galleryThree>section{
-    border: solid 1px cornflowerblue;
-    height: 20vh;
-    width: 20vw;
-}
